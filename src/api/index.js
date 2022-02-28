@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/artifacts';
+const url = 'https://artifact-server-side.herokuapp.com/artifacts';
 
 export const fetchArtifacts = () => axios.get(url);
 
